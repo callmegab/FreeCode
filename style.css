@@ -1,0 +1,111 @@
+body {
+	background-image: url(netlix.jpg);
+	font-family: sans-serif;
+	padding: 20px;
+}
+
+h1 {
+	font-size: 40px;
+	margin-top: 0;
+	margin-bottom: 15px;
+}
+
+h2 {
+	font-size: 30px;
+}
+
+.established {
+	font-style: italic;
+}
+
+h1,
+h2,
+h3,
+p {
+	text-align: center;
+}
+
+.menu {
+	width: 80%;
+	background-color: white;
+	margin-left: auto;
+	margin-right: auto;
+	padding: 20px;
+	max-width: 850px;
+}
+
+p img {
+	width: 208px;
+}
+
+hr {
+	height: 2px;
+	background-color: brown;
+	border-color: brown;
+}
+
+.bottom-line {
+	margin-top: 25px;
+}
+
+h1,
+h2 {
+	font-family: Impact, serif;
+}
+
+.item p {
+	display: inline-block;
+	margin-top: 6px;
+	margin-bottom: 0px;
+	font-size: 38px;
+	padding-left: 2px;
+}
+
+.flavor,
+.dessert {
+	text-align: left;
+	width: 75%;
+	font-weight: bold;
+}
+
+.price {
+	text-align: right;
+	padding-left: 79px;
+	/* width: 25%; */
+}
+
+/* FOOTER */
+
+footer {
+	font-size: 14px;
+}
+
+.address {
+	margin-bottom: 5px;
+}
+
+a {
+	color: black;
+}
+
+a:visited {
+	color: black;
+}
+
+a:hover {
+	color: brown;
+}
+
+a:active {
+	color: brown;
+}
+
+/* movie details */
+p.details {
+	display: flex;
+	align-items: center;
+}
+p.details span {
+	font-size: 20px;
+}
+
